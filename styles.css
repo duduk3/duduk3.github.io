@@ -91,7 +91,7 @@ nav {
 
 .hyperlinks{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 10px 20%;
 }
 
@@ -99,12 +99,17 @@ nav {
     text-decoration: none;
     font-size: 2em;
     color: rgb(88, 4, 4);
+    margin-left: 30px;
+}
+
+.hyperlinks :first-child {
+    margin-left: 0px;
 }
 
 .lists {
    width: 40%;
    justify-content: center;
-   margin: 10px auto 20px;
+   margin: 25px auto 20px;
    border-radius: 10px;
    padding: 10px 30px;
 }
@@ -137,4 +142,18 @@ nav {
 .lists a {
     text-decoration: none;
     color: rgb(3, 83, 79);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#foto {
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(8, 92, 0);
+    margin-bottom: 30px;
 }
