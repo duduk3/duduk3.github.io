@@ -151,9 +151,9 @@ footer {
 }
 
 #foto {
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
-    font-size: 25px;
-    color: rgb(8, 92, 0);
+    font-size: 35px;
+    color: rgb(19, 179, 5);
     margin-bottom: 30px;
 }
