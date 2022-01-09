@@ -1,93 +1,105 @@
-/* * {
+* {
     margin: 0;
-} */
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
 
-/* .container {
-    background-color: rgb(186, 206, 226);
-} */
+body {
+    background-color: rgb(210, 226, 243);
+}
 
-/* .navbar-container {
-    display: flex;
-    margin-left: 0px;
-    margin-top: 0px;
-} */
-
-/* .nav-bar {
-    display: flex;
-    justify-content: space-around;
+header {
+    background-color: mediumblue;
     width: 100%;
     position: fixed;
-    background-color: mediumblue;
-    padding: 40px 0px;
-} */
-
-/* .nav-menu {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-} */
-
-/* .main-container {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    left: 0;
+    top: 0;
+    padding: 40px 10px;
 }
- */
 
-/* .name {
-    font-size: 38px;
-    color: rgb(5, 5, 80);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 140px auto 20px;
-} */
-
-/* .about {
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-} */
+}
 
-/* .image {
+.nav-menu {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
+.principais {
+    color: rgb(248, 118, 118);
+}
+
+.outras {
+    color: rgb(248, 248, 121);
+}
+
+.lazer {
+    color: rgb(117, 250, 117);
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+    flex-flow: row wrap;
+}
+
+.name {
+    font-size: 34px;
+    color: rgb(3, 3, 209);
+    width: 100%;
+    text-align: center;
+}
+
+.image {
    width: 180px;
    height: 180px;
    background-color: grey;
    border-radius: 50%;
-   padding: 5px;
+   align-self: flex-start;
+   margin: 10px 40px;
 }
- */
 
-/* #img {
+
+#img {
     width: 180px;
     height: 180px;
-} */
+}
 
-/* .description {
-    flex: 100px;
-    margin-left: 35px;
+.description {
+    flex: 150px;
     font-weight: 600;
     font-size: x-large;
-} */
+}
 
-/* .me {
-    margin: 30px 15%;
-    text-align: justify;
-    font-size: 1.2em;
+.about-me {
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
     line-height: 1.2;
-} */
+    background-color: rgb(201, 201, 223);
+    line-height: 28px;
+}
 
-/* .hyperlinks{
-    text-align: center;
-    padding: 50px;
-} */
+.hyperlinks{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 20%;
+}
 
-/* .hyperlinks a{
+.hyperlinks a{
     text-decoration: none;
     font-size: 2em;
-    text-align: center;
-    margin: 50px;
     color: rgb(88, 4, 4);
 }
- */
 
  /* .lists {
     width: 60%;
